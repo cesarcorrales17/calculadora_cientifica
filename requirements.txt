@@ -1,0 +1,17 @@
+# Requerimientos para Calculadora Científica
+
+# --- Testing ---
+pytest>=8.0.0
+
+# --- GUI ---
+# Tkinter ya viene con Python en la mayoría de sistemas.
+# Estas son alternativas más modernas:
+customtkinter>=5.2.0
+PySide6>=6.6.0
+
+# --- Gráficas y visualización ---
+matplotlib>=3.9.0
+
+# --- Utilidades opcionales ---
+numpy>=1.26.0
+sympy>=1.13.0    # Para cálculos simbólicos (derivadas, integrales, simplificaciones)
