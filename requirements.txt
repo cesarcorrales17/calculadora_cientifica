@@ -1,17 +1,34 @@
-# Requerimientos para Calculadora Científica
+# ProCalc 2025 - Calculadora Científica Avanzada
+# Requerimientos de dependencias
 
 # --- Testing ---
 pytest>=8.0.0
+pytest-cov>=4.0.0
 
 # --- GUI ---
-# Tkinter ya viene con Python en la mayoría de sistemas.
-# Estas son alternativas más modernas:
+# Tkinter ya viene con Python en la mayoría de sistemas
+# Estas son alternativas y mejoras para la interfaz:
 customtkinter>=5.2.0
-PySide6>=6.6.0
+tkinter-tooltip>=2.0.0
 
 # --- Gráficas y visualización ---
 matplotlib>=3.9.0
-
-# --- Utilidades opcionales ---
 numpy>=1.26.0
-sympy>=1.13.0    # Para cálculos simbólicos (derivadas, integrales, simplificaciones)
+
+# --- Cálculos matemáticos avanzados ---
+sympy>=1.13.0          # Para cálculos simbólicos
+scipy>=1.12.0          # Funciones científicas adicionales
+mpmath>=1.3.0          # Aritmética de precisión arbitraria
+
+# --- Utilidades ---
+Pillow>=10.0.0         # Para manejo de imágenes en la interfaz
+pyperclip>=1.8.2       # Para operaciones del portapapeles
+
+# --- Desarrollo (opcionales) ---
+black>=23.0.0          # Formateo de código
+flake8>=6.0.0          # Linting
+mypy>=1.7.0            # Type checking
+
+# --- Documentación (opcional) ---
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
